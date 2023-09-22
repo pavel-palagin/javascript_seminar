@@ -13,4 +13,7 @@
 Уточнение: пользователь всегда вводит корректное число.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const degCelsius = Number.parseFloat(prompt('Введите температуру в градусах Цельсия'));
+const defFarengeit = Math.round(((9 / 5) * degCelsius + 32)*100)/100;
+
+alert(`Цельсий: ${degCelsius}, Фаренгейт: ${defFarengeit}`);
